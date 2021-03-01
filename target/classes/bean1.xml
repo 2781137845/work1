@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:util="http://www.springframework.org/schema/util"
+       xmlns:p="http://www.springframework.org/schema/p"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd
+                           http://www.springframework.org/schema/util http://www.springframework.org/schema/util/spring-util.xsd">
+    <!--    外部写list-->
+    <util:list id="id">
+        <value>15765432</value>
+        <value>35465432</value>
+    </util:list>
+
+    <!--    外部写map-->
+    <util:map id="map">
+        <entry key="shuxue" value="数学"></entry>
+        <entry key="yuwen" value="语文"></entry>
+    </util:map>
+
+    <bean id="stu" class="ji_he_ce_shi.Stu">
+        <!--        外部注入bean-->
+        <property name="serDao" ref="serDaoImpl"></property>
+        <!--       注入外部的list-->
+        <property name="id" ref="id"></property>
+        <!--       注入外部的map-->
+        <property name="clazz" ref="map"></property>
+        <!--       写入集合属性-->
+        <property name="name">
+            <array>
+                <value>wweq</value>
+                <value>fudfck</value>
+                <value><![CDATA[
+
+                ]]></value>
+            </array>
+        </property>
+        <!--       注入外部的list，内部属性为自定类-->
+        <property name="realList">
+            <list>
+                <ref bean="real1"></ref>
+                <ref bean="real2"></ref>
+            </list>
+        </property>
+    </bean>
+
+    <bean id="serDaoImpl" class="ji_he_ce_shi.serDaoImpl"></bean>
+    <bean id="real1" class="ji_he_ce_shi.real" p:reaq="qweqs"></bean>
+    <bean id="real2" class="ji_he_ce_shi.real" p:reaq="gfhgfh"></bean>
+</beans>

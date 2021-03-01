@@ -1,0 +1,235 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="a053b93d-df5b-401b-b105-6a2132e636de" name="默认更改列表" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="AnnotationType" />
+        <option value="spring-beans.schema" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="E:/maven/apache-maven-3.6.3" />
+        <option name="userSettingsFile" value="E:\maven\apache-maven-3.6.3\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="vmOptionsForImporter" value="-Xmx768m" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="MavenRunner">
+    <option name="vmOptions" value="-DarchetypeCatalog=internal" />
+  </component>
+  <component name="ProjectId" id="1hK6ASJ3SONxJBmR9ut8HCH0NQa" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/resources" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="project.structure.last.edited" value="模块" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="reference.settings.project.maven.runner" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\Idea\untitled\src\main\resources" />
+      <recent name="E:\Idea\untitled\src\main\java\zhu_jie" />
+    </key>
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="AOPText" />
+    </key>
+  </component>
+  <component name="RunAnythingCache">
+    <option name="myCommands">
+      <command value="mvn tomcat7:run" />
+    </option>
+  </component>
+  <component name="RunManager" selected="JUnit.text.t (1)">
+    <configuration name="text" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="springDemo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="zhu_jie.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="zhu_jie" />
+      <option name="MAIN_CLASS_NAME" value="zhu_jie.text" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="text1.t1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="springDemo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="text.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="text" />
+      <option name="MAIN_CLASS_NAME" value="text.text1" />
+      <option name="METHOD_NAME" value="t1" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="text.t (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="springDemo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="AOPText.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="AOPText" />
+      <option name="MAIN_CLASS_NAME" value="AOPText.text" />
+      <option name="METHOD_NAME" value="t" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="text.t (2)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="springDemo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="jdbc.text.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="jdbc.text" />
+      <option name="MAIN_CLASS_NAME" value="jdbc.text.text" />
+      <option name="METHOD_NAME" value="t" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="text.t" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="springDemo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="zhu_jie.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="zhu_jie" />
+      <option name="MAIN_CLASS_NAME" value="zhu_jie.text" />
+      <option name="METHOD_NAME" value="t" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.text.t (1)" />
+        <item itemvalue="JUnit.text.t" />
+        <item itemvalue="JUnit.text" />
+        <item itemvalue="JUnit.text1.t1" />
+        <item itemvalue="JUnit.text.t (2)" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="a053b93d-df5b-401b-b105-6a2132e636de" name="默认更改列表" comment="" />
+      <created>1599747293227</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1599747293227</updated>
+      <workItem from="1599747295929" duration="758000" />
+      <workItem from="1599748278225" duration="487000" />
+      <workItem from="1599784243034" duration="4000" />
+      <workItem from="1599891870400" duration="2836000" />
+      <workItem from="1599977147697" duration="3216000" />
+      <workItem from="1600061817359" duration="3474000" />
+      <workItem from="1600072906856" duration="3677000" />
+      <workItem from="1600389204474" duration="81000" />
+      <workItem from="1600485600146" duration="11074000" />
+      <workItem from="1600666550031" duration="3260000" />
+      <workItem from="1600678285353" duration="2346000" />
+      <workItem from="1600687719360" duration="217000" />
+      <workItem from="1600993747733" duration="69000" />
+      <workItem from="1601271302168" duration="1323000" />
+      <workItem from="1601273378724" duration="11000" />
+      <workItem from="1601273561577" duration="10000" />
+      <workItem from="1601273696351" duration="986000" />
+      <workItem from="1601283625057" duration="1183000" />
+      <workItem from="1601788181940" duration="177000" />
+      <workItem from="1602424886855" duration="1693000" />
+      <workItem from="1602480625467" duration="1916000" />
+      <workItem from="1602487970155" duration="12000" />
+      <workItem from="1603086457306" duration="3793000" />
+      <workItem from="1603097062405" duration="675000" />
+      <workItem from="1603239988822" duration="12000" />
+      <workItem from="1603273401125" duration="1000" />
+      <workItem from="1603413699461" duration="6000" />
+      <workItem from="1603622884252" duration="15000" />
+      <workItem from="1603691805867" duration="12000" />
+      <workItem from="1604741560468" duration="325000" />
+      <workItem from="1606112491569" duration="703000" />
+      <workItem from="1607233503999" duration="36000" />
+      <workItem from="1610001400460" duration="1310000" />
+      <workItem from="1610419048156" duration="180000" />
+      <workItem from="1610421020542" duration="627000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state width="1877" height="279" key="GridCell.Tab.0.bottom" timestamp="1610004355992">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state width="1877" height="279" key="GridCell.Tab.0.bottom/0.0.1920.1050@0.0.1920.1050" timestamp="1610004355992" />
+    <state width="1877" height="279" key="GridCell.Tab.0.center" timestamp="1610004355992">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state width="1877" height="279" key="GridCell.Tab.0.center/0.0.1920.1050@0.0.1920.1050" timestamp="1610004355992" />
+    <state width="1877" height="279" key="GridCell.Tab.0.left" timestamp="1610004355992">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state width="1877" height="279" key="GridCell.Tab.0.left/0.0.1920.1050@0.0.1920.1050" timestamp="1610004355992" />
+    <state width="1877" height="279" key="GridCell.Tab.0.right" timestamp="1610004355992">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state width="1877" height="279" key="GridCell.Tab.0.right/0.0.1920.1050@0.0.1920.1050" timestamp="1610004355992" />
+    <state x="623" y="227" width="672" height="678" key="search.everywhere.popup" timestamp="1603239999854">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="623" y="227" width="672" height="678" key="search.everywhere.popup/0.0.1920.1050@0.0.1920.1050" timestamp="1603239999854" />
+  </component>
+</project>
